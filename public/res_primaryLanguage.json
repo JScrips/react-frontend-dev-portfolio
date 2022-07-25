@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Greetings!",
+      "description": "I love making websites, and web development! I am a Gamer, Pad-Thai Enthusiast, and Software Engineer based in San Antonio, TX. Originally from Los Angeles, CA. I am proficient in Frontend Development, and learning the best practices for Backend development daily. As a software engineer, I aspire to help bring creative projects to life and demonstrate my commitment to developing world-class software solutions for my community, and your company.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,38 +11,48 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Apex Legends Matchmaker",
+        "startDate": "2022",
+        "description": "100 hour project. Application for gamers to create teams and leave reviews for players for the popular battle royale game Apex Legends.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/apex-legends/SignInThumb.PNG",
+          "images/portfolio/apex-legends/homepage.PNG",
+          "images/portfolio/apex-legends/profile.PNG",
+          "images/portfolio/apex-legends/search.PNG",
+          "images/portfolio/apex-legends/settings.PNG",
+          "images/portfolio/apex-legends/rooms.PNG"
         ],
-        "url": "",
+        "url": "https://apexmaker.vercel.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          },
+          {
+            "class": "devicon-tailwindcss-plain",
+            "name": "TailwindCSS"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "OpenSauced",
+        "startDate": "2021",
+        "description": "This was my first paid gig, as well as my first open source contribution. The site recommends the hottest projects on Github for newer Software Engineers to find and contribute to their first open source project.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/open-sauced/homepage.png",
+          "images/portfolio/open-sauced/altview.png",
+          "images/portfolio/open-sauced/modal.png",
+          "images/portfolio/open-sauced/github.png"
         ],
-        "url": "https://github.com",
+        "url": "https://hot.opensauced.pizza/#",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,63 +65,151 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Trello Kanban",
+        "startDate": "2021",
+        "description": "Pixel-perfect re-creation of the Trello Kanban board",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/trello-kanban/home.PNG"
         ],
-        "url": "https://github.com",
+        "url": "https://brown-terrance-trufoundry-assessment.vercel.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-tailwindcss-plain",
+            "name": "TailwindCSS"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          }
+        ]
+      },
+      {
+        "title": "Codeforge Agency",
+        "startDate": "2021",
+        "description": "Web Development Agency landing page, fully responsive.",
+        "images": [
+          "images/portfolio/codeforge/landing.PNG"
+        ],
+        "url": "https://codeforge-dot-agency-main.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Nextjs"
+          },
+          {
+            "class": "devicon-tailwindcss-plain",
+            "name": "TailwindCSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          }
+        ]
+      },
+      {
+        "title": "Serenum Junk Removal",
+        "startDate": "2021",
+        "description": "Serenum Junk Removal is a small business specializing in the removal of junk and debris.",
+        "images": [
+          "images/portfolio/serenum/landing.PNG"
+        ],
+        "url": "https://codeforge-dot-agency-main.vercel.app/",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain",
+            "name": "Nextjs"
+          },
+          {
+            "class": "devicon-tailwindcss-plain",
+            "name": "TailwindCSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "100Devs",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "10.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "React",
+          "Nextjs"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
+          "CSS Flexbox",
+          "NoSQL",
+          "Git",
+          "Github",
+          "Project Management",  
+          "Firebase",
+          "HTML",
+          "CSS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "TailwindCSS",
+          "Nodejs",
+          "MongoDB",
+          "Photoshop",
+          "Redux",
+          "NPM",
+          "Markdown",
+          "express",
+          "VSCode"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Dynaweb Consulting",
+        "title": "Frontend Developer",
+        "years": "12.2019 - Present",
         "mainTech": [
-          "Angular 7/8"
+          "React",
+          "Nextjs"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "Firebase",
+          "HTML",
+          "CSS",
           "JavaScript",
-          "DHTMLX Gantt"
+          "TailwindCSS",
+          "Nodejs",
+          "MongoDB",
+          "Photoshop",
+          "Redux",
+          "NPM",
+          "Markdown",
+          "express",
+          "VSCode"
+        ]
+      },
+      {
+        "company": "GEICO",
+        "title": "Auto Damage Adjuster",
+        "years": "12.2020 - 10.2021",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+          ""
         ]
       }
     ]
