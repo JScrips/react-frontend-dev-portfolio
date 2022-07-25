@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import mongodbIcon from '@iconify/icons-logos/mongodb';
-import reactIcons from '@iconify/icons-logos/react';
-import nodejsIcon from '@iconify/icons-logos/nodejs';
-import expressIcon from '@iconify/icons-logos/express';
+
 
 class About extends Component {
   render() {
@@ -31,22 +28,8 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={mongodbIcon}
-                    style={{ fontSize: "200%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={expressIcon}
-                    style={{ fontSize: "200%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcons}
-                    style={{ fontSize: "200%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={nodejsIcon}
-                    style={{ fontSize: "200%", margin: "9% 5% 0 5%" }}
-                  />
+                 
+                
                 </span>
               </div>
             </div>
