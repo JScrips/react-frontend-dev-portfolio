@@ -28,8 +28,6 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                 
-                
                 </span>
               </div>
             </div>
